@@ -4,7 +4,7 @@
         { "src": "index.html", "use": "@vercel/static" }
       ],
       "routes": [
-        { "src": "/zohoverify/verifyforzoho\.html", "dest": "/zohoverify/verifyforzoho.html", "headers": {"cache-control": "s-maxage=0"} },
+        { "src": "/zohoverify/verifyforzoho.html", "dest": "/zohoverify/verifyforzoho.html", "headers": {"cache-control": "s-maxage=0"} },
         { "src": "/(.*)", "dest": "/index.html" }
       ]
     }
